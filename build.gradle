@@ -10,6 +10,7 @@ buildscript {
     dependencies {
         classpath "de.undercouch:gradle-download-task:${project.gradleDownloadTaskVersion}"
         classpath "org.springframework.boot:spring-boot-gradle-plugin:${project.springBootVersion}"
+        compile "org.apereo.cas:cas-server-support-ldap:${project.'cas.version'}"
         classpath "gradle.plugin.com.google.cloud.tools:jib-gradle-plugin:${project.jibVersion}"
         classpath "io.freefair.gradle:maven-plugin:${project.gradleMavenPluginVersion}"
     }
