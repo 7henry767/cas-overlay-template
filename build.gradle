@@ -42,6 +42,9 @@ apply plugin: "com.google.cloud.tools.jib"
 dependencies {
     compile "org.apereo.cas:cas-server-webapp${project.appServer}:${casServerVersion}"
     compile "org.apereo.cas:cas-server-support-ldap:${project.'cas.version'}"
+    compile "org.apereo.cas:cas-server-support-gauth:${project.'cas.version'}"
+    compile "org.apereo.cas:cas-server-support-saml:${project.'cas.version'}"
+    compile "org.apereo.cas:cas-server-support-metrics:${project.'cas.version'}"
     // Other CAS dependencies/modules may be listed here...
 }
 
